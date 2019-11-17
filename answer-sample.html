@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>解答サンプル</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <main>
+        <div id = "inContent">
+            <section class="answer-head">
+                <h3>テストお疲れ様でした！結果確認！！</h3>
+                <div class="result-message">
+                    <p class="large">xxxxxxxxさん、n問中n問正解です。</p>
+                        <p class="small">この資格は2xxx年xx月xx日まで有効です</p>
+                        <p class="small">全問正解すれば、資格を取得できます。</p>
+                </div>
+            </section>
+            <ul class="answer-layout">
+                <li class="answer number">Q11</li>
+                <li class="answer question">テスト</li>
+                <li class="answer result br-right">正解</li>
+            </ul>
+            <ul class="answer-layout">
+                <li class="answer choise ">正解の解答</li>
+                <li class="answer choise br-right">あなたの解答</li>
+            </ul>
+            <ul class = "answer-layout answer-item  clear-fix">
+                <li class="answer choise">
+                    <ul>
+                        <li>ラーメン</li>
+                        <li>味噌ラーメン</li>
+                        <li>塩ラーメン</li>
+                        <li>塩ラーメン</li>
+                    </ul>
+                </li>
+                <li class="answer choise br-right">
+                    <ul>
+                        <li>ラーメン</li>
+                        <li>味噌ラーメン</li>
+                        <li>塩ラーメン塩ラーメン塩ラーメン塩ラーメン</li>
+                    </ul>       
+                </li>
+                <li class="answer answer-sentence br-bottom br-right">
+                    <h3>解説</h3>
+                    <p>解説解説解説解説解説解説解説解説</p>
+                </li>
+            </ul>
+
+
+        <button id="send-answer" @click="restartClick">もう一度チャレンジ！！</button>
+        </div>
+    </main>
+</body>
+</html>
